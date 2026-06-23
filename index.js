@@ -87,7 +87,7 @@ async function downloadSessionFromMega() {
 
         console.log(chalk.blue('📥 Downloading Teddy_Sessions from mega.nz...'));
         try {
-            const sessdata = global.SESSION_ID.replace("Timnasa&", '');
+            const sessdata = global.SESSION_ID.replace("HansTz&", '');
             const filer = File.fromURL(`https://mega.nz/file/${sessdata}`);
             
             filer.download((err, data) => {
